@@ -1,0 +1,61 @@
+.property-analysis-container {
+  min-height: 100vh;
+  background-color: var(--background);
+  padding: 40px 20px;
+}
+
+.analysis-header {
+  max-width: 800px;
+  margin: 0 auto 32px;
+}
+
+.analysis-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.analysis-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--card-background);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: var(--shadow);
+}
+
+.card-header {
+  margin-bottom: 32px;
+}
+
+.card-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.card-header p {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.input-large {
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .property-analysis-container {
+    padding: 20px;
+  }
+
+  .analysis-card {
+    padding: 24px;
+  }
+
+  .analysis-header h1 {
+    font-size: 24px;
+  }
+}

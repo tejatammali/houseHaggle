@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/tejat/Dropbox/PC/Desktop/househaggle/**)",
+      "Read(//c/Users/tejat/Desktop/househaggle/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
